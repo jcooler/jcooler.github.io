@@ -406,9 +406,8 @@ textarea.input100 {
   .contact100-pic {
     width: 33.5%;
   }
-
-  .contact100-form {
-    width: 44%;
+  .contact100-pic {
+    width: 33.5%;
   }
 
 }
@@ -439,11 +438,15 @@ textarea.input100 {
   .contact100-form {
     width: 100%;
   }
+ 
 }
 
 @media (max-width: 576px) {
   .wrap-contact100 {
     padding: 110px 15px 157px 15px;
+  }
+  .footer-info {
+    width: 80%;
   }
 }
 
