@@ -16,6 +16,7 @@ body, html {
 .banner-div{
   background-color: #732eca;
   height: 100%;
+  width: auto;
 }
 
 
@@ -37,13 +38,12 @@ body {
 
 .morph {
   position: relative;
-  display: block;
+  text-align: center;
   color: #732eca;
   font-size: 70px;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
-  width: auto;
-  padding: 8%;
+  padding: 10%;
 }
 
 .word {
@@ -385,54 +385,44 @@ a:visited{
     .morph{ font-size: 25px;}
     .morph{ margin-left: 10px;}
     .morph{ margin-top: 20px;}
-    .morph{display: -webkit-box;}
-    .morph{display: flex;}
+    
   
   }
 
 
   @media screen and (max-width: 400px) {
-    .morph{ font-size: 15px;}
+    .morph{ font-size: 25px;}
     .morph{ margin-top: 180px;}
-    .morph{display: -webkit-box;}
-    .morph{display: flex;}
+    
   
   }
 
   @media screen and (max-width: 659px) {
-    .morph{ font-size: 25px;}
+    .morph{ font-size: 35px;}
     .morph{ margin-top: 180px;}
-    .morph{display: -webkit-box;}
-    .morph{display: flex;}
-    .morph{margin-right: 15%;}
+    
   
   }
 
 
   @media screen and (max-width: 740px) {
-    .morph{ font-size: 40px;}
+    .morph{ font-size: 50px;}
     .morph{ margin-top: 180px;}
-    .morph{display: -webkit-box;}
-    .morph{display: flex;}
-    .morph{margin-right: 15%;}
+    
   
   }
 
   @media screen and (max-width: 800px) {
-    .morph{ font-size: 25px;}
-    .morph{ margin-left: 50px;}
+    .morph{ font-size: 50px;}
     .morph{ margin-top: 180px;}
-    .morph{display: -webkit-box;}
-    .morph{display: flex;}
+    
   
   }
 
   @media screen and (max-width: 1024px) {
     .morph{ font-size: 30px;}
-    .morph{ margin-left: 20%;}
     .morph{ margin-top: 180px;}
-    .morph{display: -webkit-box;}
-    .morph{display: flex;}
+    
   
   }
 
