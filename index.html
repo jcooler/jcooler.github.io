@@ -6,54 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jon Cooler | Front-End Developer</title>
     <link rel="stylesheet" href="assets/css/main.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/css/util.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-<!--===============================================================================================-->
+
 <link rel="icon" type="image/png" href="assets/images/AvatarMaker.png"/>
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/de47033526.js" crossorigin="anonymous"></script>
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css"
+  rel="stylesheet"
+/>
 <!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-<link rel="stylesheet" type="text/css" href="assets/css/bannerstyle.css">
 <!--===============================================================================================-->
 
 </head>
 <body>
     <!-----------------------------------Banner section-------------------------------->
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Resume</a>
-      
-      
-    </div>
-    <span style="font-size:35px; color:#732eca; cursor:pointer" onclick="openNav()">&#9776; </span>
-    <div id="particles-js">
-
-    </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;"> 
+      <a class="navbar-brand navbar-text" href="index.html" style="color:#BB86FE">Jon Cooler | Front-End Developer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active navbar-text" href="index.html" style="color:#BB86FE">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link navbar-text" href="experience.html" style="color:#BB86FE">Experience</a>
+          <a class="nav-item nav-link navbar-text" href="contact.html" style="color:#BB86FE">Contact</a>
+          <div class="dark-mode-toggle-container">
+          <img class="dark-mode-toggle" onclick="myFunction();document.getElementById('myImage').src='assets/images/dark_mode.png'" src="assets/images/light_mode.png"> </button>
+        </div>
+        </div>
+      </div>
+    </nav>
+  
+    
+   
     <!--------------------------Dark and Light mode toggle----------------------->
+    
     
 <!---------------------------------------banner---------------------------------->
 
-    <div class="morph">
-      <div class="word">Front-End Developer</div>
-      <div class="word">Mentor</div>
-      <div class="word">Student</div>
-      <div class="word">Collaborator</div>
-      <div class="word">Adventurer</div>
-      <div class="word">Friend</div>
-      <div class="word">Human</div>
-      <div class="word">:)</div>
-     </div>
+   
 
         
     
@@ -64,6 +70,7 @@
     <img class= "avatar" src="assets/images/AvatarMaker.png">
   </div>
 
+  
  
 
 <section class="section skills has-text-centered">
@@ -72,7 +79,7 @@
   <div class="content">
     <div class="columns is-centered">
       <div class="column">
-        <figure class="image"><img class="is-skill-icon" src="assets/images/about.png"></figure>
+        <i class="fa-solid fa-user-large fa-5x" style="color:#BB86FE;"></i>
         <h1 class="title is-size-4 is-spaced">About</h1>
         <p> Hey! I'm Jon, nice to meet you. I have been passionate about code since the days of MySpace. Technically, I got started with Xanga! 
           I have made everything from MySpace pages to the webpage you are currently looking at.</p>
@@ -80,25 +87,19 @@
         <p>Coffee, tea, dogs, exercise, reading, video games, hiking, learning, collaberating, mentoring, &amp writing code.</p>
       </div>
       <div class="column">
-        <figure class="image"><img class="is-skill-icon" src="assets/images/code.png"></figure>
+        <i class="fa-solid fa-code fa-5x" style="color:#BB86FE;"></i>
         <h1 class="title is-size-4 is-spaced">Experience</h1>
-        <p>I have been using HTML &amp; CSS for over a decade, and JavaScript for 2+ years.</p>
+        <p>I have been using HTML &amp; CSS for over a decade, and JavaScript for 2+ years. I am currently exploring frameworks to better my knowledge and future projects.</p>
         <h1 class="title is-size-4 is-spaced">Languages that I use:</h1>
-        <p>I am knowledgable in HTML, CSS, JavaScript, React, Python &amp Java!</p>
+        <p>I am knowledgable in HTML, CSS, JavaScript, &amp; React.</p>
         <h1 class="title is-size-4 is-spaced">Tools that I use:</h1>
         <p>
-          My Macbook Pro, Visual Studio Code, Github, Terminal, Stack Overflow, Intelli J, CodePen, Bootstrap, Pen &amp Paper
+          My Macbook Pro, Visual Studio Code, Github, Stack Overflow, CodePen, Bootstrap.
         </p>
         
-        <p>View my latest project <a href="https://jcooler.github.io/numberGuesser/"target="_blank"> here </a></p>
+        <p>View my latest project <a href="https://jcooler.github.io/react-todo-list/"target="_blank"> here </a></p>
         </div>
-        <div class="column">
-          <figure class="image"><img class="is-skill-icon" src="assets/images/rocket.png"></figure>
-          <h1 class="title is-size-4 is-spaced">Goals</h1>
-          <p>I try to make it a priority to always learn something new. I enjoy learning and consider myself a lifelong student. 
-            I want to continue my journey learning about Front-End development but I would also like to learn other things as well.
-             I would like to learn more about Back-End languages and frameworks to create stunning and responsive applications</p>      
-      </div>
+        
       </div>
     </div>
   </div>
@@ -109,79 +110,42 @@
 
 
 
-<!-------------------------------------------CONTACT------------------------------------------------------>
-<!-------------------------------------------CONTACT------------------------------------------------------>
-<!-------------------------------------------CONTACT------------------------------------------------------>
-<!-------------------------------------------CONTACT------------------------------------------------------>
-
-
-
-<div class="bg-contact100" style="background-image: url('assets/images/bg-02.jpg');">
-  <div class="container-contact100">
-    <div class="wrap-contact100">
-      <div class="contact100-pic js-tilt" data-tilt>
-        <img src="assets/images/img-01.png" alt="IMG">
-      </div>
-      <form class="contact100-form validate-form" form action="https://formsubmit.co/jonathan.r.cooler@gmail.com" method="POST">
-        <span class="contact100-form-title">
-          Let's chat!
-        </span>
-
-        <div class="wrap-input100 validate-input" data-validate = "Name is required">
-          <input class="input100" type="text" name="name" placeholder="Name">
-          <span class="focus-input100"></span>
-          <span class="symbol-input100">
-            <i class="fa fa-user" aria-hidden="true"></i>
-          </span>
-        </div>
-
-        <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-          <input class="input100" type="text" name="email" placeholder="Email">
-          <span class="focus-input100"></span>
-          <span class="symbol-input100">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-          </span>
-        </div>
-
-        <div class="wrap-input100 validate-input" data-validate = "Message is required">
-          <textarea class="input100" name="message" placeholder="Message"></textarea>
-          <span class="focus-input100"></span>
-        </div>
-
-        <div class="container-contact100-form-btn">
-          <button class="contact100-form-btn">
-            Send
-          </button>
-        </div>
-      </form>
-      
-      
-  </div>
-
-
-<!-------------------------------------------END CONTACT------------------------------------------------------>
-<!-------------------------------------------END CONTACT------------------------------------------------------>
-<!-------------------------------------------END CONTACT------------------------------------------------------>
-<!-------------------------------------------END CONTACT------------------------------------------------------>
-
-
-  
-  
   <div class="footer">
-    <a href="https://www.linkedin.com/in/joncooler/" target="_blank"><p class="footer-info">LinkedIn</p></a>
-    <a href="https://github.com/jcooler" target="_blank"><p class="footer-info"> GitHub</p></a>
-    <a href="mailto:jonathan.r.cooler@gmail.com"><p class="footer-info">Mail</p></a>
-    <a href="https://codepen.io/jcooler" target="_blank"><p class="footer-info">CodePen</p></a>
-    <a href="https://jcooler.github.io/"><p class="footer-info">Home</p></a>
-    <div class="made-by">
-      <p class="made-by-text">Hand-forged by me &copy; 'Twenty one</p>
+        
+          <!-- Section: Social media -->
+          <section class="mb-1">
+            <!-- Twitter -->
+            <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://twitter.com/coolerjon" target="_blank" role="button"
+            style="color:#BB86FE !important;"><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- CP -->
+            <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://codepen.io/jcooler" target="_blank" role="button"
+            style="color:#BB86FE !important;"><i class="fab fa-codepen"></i
+            ></a>
+      
+            <!-- Mail -->
+            <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="mailto:jonathan.r.cooler@gmail.com" target="_blank" role="button"
+            style="color:#BB86FE !important;"><i class="fab fa-envelope"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/joncooler/" target="_blank" role="button"
+            style="color:#BB86FE !important;"><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-lg btn-outline-dark btn-floating m-1" href="https://github.com/jcooler" target="_blank" role="button"
+            style="color:#BB86FE !important;"><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+          <div class="made-by">
+          <p class="made-by-text">Hand-forged by me &copy; 'Twenty one</p>
+        
     </div>	
     </div>
-  </div>
-</div>
-</div>  
-    
-          
+  
 
 
 
@@ -204,26 +168,9 @@
 <script src="assets/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
 <script src="assets/vendor/tilt/tilt.jquery.min.js"></script>
-<script >
-  $('.js-tilt').tilt({
-    scale: 1.1
-  })
-</script>
-<!--===============================================================================================-->
-<script src="js/main.js"></script>
 
 
-<!---------------------------------JS--------------------------------->
-
-
-<!--===============================================================================================-->
-	<script src="assets/js/main.js"></script>
-  <!--===============================================================================================-->
-<script src="assets/js/navbar.js"></script>
-<!--===============================================================================================-->
-<script src="assets/js/particles.js"></script>
-<!--===============================================================================================-->
-<script src="assets/js/app.js"></script>
+<script src="assets/js/App.js"></script>
 <!--===============================================================================================-->
 
 </body>
