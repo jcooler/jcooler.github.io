@@ -202,9 +202,6 @@ background-color: #3f3f3f !important;
   font-family:  'Courier New', Courier, monospace;
 }
 
-#checkbox {
-  visibility: hidden;
-}
 
 ol, ul { 
   list-style: none; }
@@ -426,50 +423,7 @@ a:visited{
    } } 
 
 
-  @media screen and (max-height: 600px) {
-    .morph{ font-size: 25px;}
-    .morph{ margin-left: 10px;}
-    .morph{ margin-top: 20px;}
-    
-  
-  }
 
-
-  @media screen and (max-width: 400px) {
-    .morph{ font-size: 25px;}
-    .morph{ margin-top: 180px;}
-    
-  
-  }
-
-  @media screen and (max-width: 659px) {
-    .morph{ font-size: 35px;}
-    .morph{ margin-top: 180px;}
-    
-  
-  }
-
-
-  @media screen and (max-width: 740px) {
-    .morph{ font-size: 50px;}
-    .morph{ margin-top: 180px;}
-    
-  
-  }
-
-  @media screen and (max-width: 800px) {
-    .morph{ font-size: 50px;}
-    .morph{ margin-top: 180px;}
-    
-  
-  }
-
-  @media screen and (max-width: 1024px) {
-    .morph{ font-size: 30px;}
-    .morph{ margin-top: 180px;}
-    
-  
-  }
 
 
 
