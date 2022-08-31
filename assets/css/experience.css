@@ -16,6 +16,30 @@
   @font-face {
     font-family: Montserrat-Medium;
     src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
+
+  }
+
+  body { 
+    font-size: 1em; 
+    font-weight: 300; 
+    line-height: 1.5; 
+    background-color: rgb(255, 255, 255);
+    font-family: "europa", sans-serif;
+  }
+  
+  body, html {
+      height:100%;
+      margin: auto;
+      padding:0;
+  }
+  
+  
+  p {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
   }
 
 .darkmode .card-title{
@@ -24,4 +48,12 @@
 
   .dark-mode .card-body{
     background-color: #242424 !important;
+    }
+
+    .dark-mode p, h1, h2, h3, h4, h5, h6{
+      color: #BB86FE !important;
+    }
+
+    p, h1, h2, h3, h4, h5, h6{
+      color: #aaaaaa !important;
     }

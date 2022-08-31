@@ -34,6 +34,7 @@
 
 </head>
 <body>
+  <main id="main">
     <!-----------------------------------Banner section-------------------------------->
     <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;"> 
       <a class="navbar-brand navbar-text" href="index.html" style="color:#BB86FE">Jon Cooler | Front-End Developer</a>
@@ -45,14 +46,16 @@
           <a class="nav-item nav-link active navbar-text" href="index.html" style="color:#BB86FE">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link navbar-text" href="experience.html" style="color:#BB86FE">Experience</a>
           <a class="nav-item nav-link navbar-text" href="contact.html" style="color:#BB86FE">Contact</a>
-          <div class="dark-mode-toggle-container">
-          <img class="dark-mode-toggle" onclick="myFunction();document.getElementById('myImage').src='assets/images/dark_mode.png'" src="assets/images/light_mode.png"> </button>
-        </div>
+            <label class="switch">
+              <input type="checkbox" onclick="darkLight()" id="checkBox" >
+              <span class="slider"></span>
+            </label>
+          
         </div>
       </div>
     </nav>
-  
-    
+
+
 
     <!--------------------------Dark and Light mode toggle----------------------->
     
@@ -108,7 +111,7 @@
 </section>
 
 
-
+<!--Footer Section-->
 
   <div class="footer">
         
@@ -151,36 +154,22 @@
 
 
 <!--JS-->
-<script src="/Users/joncooler/Library/Mobile Documents/com~apple~CloudDocs/dev/mywebsite/jcooler.github.io/navbar.js"></script>
-
-<!--Footer Section-->
 
 
 
 
 
-<!--===============================================================================================-->
-<script src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-<script src="assets/vendor/bootstrap/js/popper.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-<script src="assets/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-<script src="assets/vendor/tilt/tilt.jquery.min.js"></script>
+
 
 <!--===============================================================================================-->
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--===============================================================================================-->
-    <script src="assets/js/main.js"></script>
-    <!--===============================================================================================-->
-  <script src="assets/js/navbar.js"></script>
-  <!--===============================================================================================-->
-  <script src="assets/js/particles.js"></script>
-  <!--===============================================================================================-->
+ 
   <script src="assets/js/app.js"></script>
   <!--===============================================================================================-->
-
+  </main>
 </body>
 </html>
  
