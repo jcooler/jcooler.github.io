@@ -1,6 +1,57 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
+
+/* --------- LOADER ---------- */
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  transition: opacity 1.75s, visibility 1.75s;
+}
+
+.loader-hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #7449f5;
+  border-radius: 50%;
+  animation: loading 1.75s ease infinite;
+}
+
+@keyframes loading {
+  from{
+    transform: roate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 @font-face {
   font-family: Montserrat-Regular;
   src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
@@ -19,6 +70,11 @@
 @font-face {
   font-family: Montserrat-Medium;
   src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
+}
+
+.navbar-nav{
+  text-align: right;
+  padding-right: 10px;
 }
 
 /* Dark mode*/
@@ -178,7 +234,8 @@ background-color: #3f3f3f !important;
   border: solid;
   border-radius: 360px;
   border-color: #BB86FE;
-  display: block;
+  display: flex;
+  justify-content: right;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
@@ -421,4 +478,12 @@ a:visited{
  
  
 
+
+
+
+
+
+
+
+   
  
